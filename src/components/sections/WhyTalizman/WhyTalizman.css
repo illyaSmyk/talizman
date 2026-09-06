@@ -1,0 +1,149 @@
+.whytalizman {
+  padding: 60px var(--page-padding);
+  background-color: var(--color-bg-deep);
+}
+
+.whytalizman__container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+.whytalizman__info-box {
+  display: flex;
+  flex-direction: column;
+}
+.whytalizman__info-description {
+  margin-bottom: 16px;
+
+  color: var(--color-gold);
+
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.whytalizman__item {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 20px;
+}
+.whytalizman__title {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  color: var(--color-text-primary);
+
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.whytalizman__ornament {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  width: 100%;
+
+  margin-top: 28px;
+
+  margin-bottom: 28px;
+}
+
+.whytalizman__ornament > span:not(.whytalizman__ornament-symbol) {
+  flex: 1;
+
+  height: 1px;
+
+  background: var(--color-gold);
+
+  opacity: 0.5;
+}
+
+.whytalizman__ornament-symbol {
+  color: var(--color-gold);
+
+  font-size: 14px;
+
+  line-height: 1;
+}
+
+.whytalizman__number {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-gold);
+
+  border-radius: 50%;
+  color: var(--color-gold);
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 14px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.whytalizman__description {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.whytalizman__item {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 20px;
+
+  padding: 28px 0;
+
+  border-bottom: 1px solid var(--color-border);
+}
+
+.whytalizman__item-content {
+  flex: 1;
+}
+
+.whytalizman__description-title {
+  margin: 0 0 12px;
+
+  color: var(--color-text-primary);
+
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.whytalizman__description-services {
+  margin: 0;
+  color: rgb(170, 165, 157);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+@media (min-width: 1101px) {
+  .whytalizman__info {
+    display: flex;
+
+    gap: 80px;
+  }
+
+  .whytalizman__info-box,
+  .whytalizman__description {
+    flex: 1;
+  }
+
+  .whytalizman__title {
+    font-size: clamp(50px, 5vw, 72px);
+  }
+}

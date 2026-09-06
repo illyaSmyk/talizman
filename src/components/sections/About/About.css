@@ -1,0 +1,163 @@
+/* =========================
+   MOBILE — BASE
+   320px+
+   ========================= */
+
+.about {
+  display: flex;
+  align-items: flex-start;
+  padding: 40px var(--page-padding);
+  background: var(--color-bg-deep);
+}
+
+.about__container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+.about__info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
+.about__info-description {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 10px;
+  font-weight: 800;
+  color: #d8bd82;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  letter-spacing: 2px;
+}
+
+.about__title {
+  position: relative;
+  padding-bottom: 24px;
+  max-width: 700px;
+  color: var(--color-text-primary);
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 39px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+}
+
+.about__title span {
+  display: block;
+}
+
+.about__title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+
+  width: 100%;
+  height: 1px;
+
+  background: var(--color-gold);
+  opacity: 0.75;
+  transform: translateX(-50%);
+}
+
+.about__description {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about__description-services {
+  color: rgb(170, 165, 157);
+  line-height: 29px;
+}
+.about__description-signature {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about__description-sign {
+  background: linear-gradient(90deg, #a9874f 0%, #d8bd82 50%, #a9874f 100%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+
+  font-family: "Cinzel", Georgia, serif;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.12em;
+}
+
+.about__description-sign-text {
+  font-size: 10px;
+  color: rgb(116, 112, 105);
+  line-height: 14px;
+}
+
+/* =========================
+   TABLET
+   641px+
+   ========================= */
+
+@media (min-width: 641px) {
+  .about {
+    padding: 60px var(--page-padding);
+  }
+}
+
+/* =========================
+   LARGE TABLET / SMALL DESKTOP
+   769px+
+   ========================= */
+
+@media (min-width: 769px) {
+}
+
+/* =========================
+   DESKTOP
+   1101px+
+   ========================= */
+
+@media (min-width: 1101px) {
+  .about__info {
+    flex-direction: row;
+    padding: 80px var(--page-padding);
+  }
+
+  .about__info-box,
+  .about__description {
+    flex: 1;
+  }
+
+  .about__title {
+    font-size: 50px;
+  }
+
+  .about__title::after {
+    display: none;
+  }
+
+  .about__description {
+    position: relative;
+    padding-top: 24px;
+  }
+
+  .about__description::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: var(--color-gold);
+    opacity: 0.75;
+  }
+}

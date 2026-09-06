@@ -1,0 +1,16 @@
+{
+
+  "navigation": {
+    "services": "Leistungen",
+    "transfers": "Transfers & Preise",
+    "vehicle": "Fahrzeug",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "book": "Transfer buchen"
+  },
+
+  "brand": {
+    "tagline": "Premium Transfer Service"
+  }
+
+}

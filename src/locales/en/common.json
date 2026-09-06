@@ -1,0 +1,13 @@
+{
+  "navigation": {
+    "services": "Services",
+    "transfers": "Transfers & Prices",
+    "vehicle": "Vehicle",
+    "about": "About",
+    "contact": "Contact",
+    "book": "Book a transfer"
+  },
+  "brand": {
+    "tagline": "Premium Transfer Service"
+  }
+}
