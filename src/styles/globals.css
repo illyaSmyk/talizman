@@ -8,6 +8,13 @@ html {
   scroll-behavior: smooth;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 body {
   margin: 0;
   min-width: 320px;
@@ -47,4 +54,28 @@ svg {
   max-width: calc(var(--container-width) + (var(--page-padding) * 2));
   margin-inline: auto;
   padding-inline: var(--page-padding);
+}
+
+.section-label {
+  font-family: "Cinzel", Georgia, serif;
+  margin: 0 0 var(--space-4);
+  color: var(--color-gold);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: var(--color-text-primary);
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 39px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media (min-width: 1101px) {
+  .section-title {
+    font-size: clamp(50px, 5vw, 72px);
+  }
 }

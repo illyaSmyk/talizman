@@ -1,39 +1,37 @@
 import "./About.css";
+import { useTranslation } from "react-i18next";
 
 function About() {
+  const { t } = useTranslation();
+
   return (
     <section className="about" id="about">
-      <div className="about__container">
+      <div className="container">
         <div className="about__info">
           <div className="about__info-box">
-            <p className="about__info-description">
-              PRIVATE TRANSFERS & EXECUTIVE TRAVEL
+            <p className="about__info-description section-label">
+              {t("about.label")}
             </p>
+
             <h2 className="about__title">
-              <span>Your &nbsp;journey.</span>
-              <span>Your &nbsp;comfort.</span>
+              <span>{t("about.titleJourney")}</span>
+              <span>{t("about.titleComfort")}</span>
             </h2>
           </div>
 
           <div className="about__description">
             <p className="about__description-services">
-              @Talizman provides private transfers from Banská Bystrica with a
-              focus on comfort, reliability and personal service.
+              {t("about.descriptionFirst")}
             </p>
 
             <p className="about__description-services">
-              Every journey is arranged individually — from airport and business
-              transfers to long-distance travel across Slovakia and Central
-              Europe.
+              {t("about.descriptionSecond")}
             </p>
 
             <div className="about__description-signature">
-              <p className="about__description-sign"> Talizman </p>
+              <p className="about__description-sign">Talizman</p>
 
-              <p className="about__description-sign-text">
-                {" "}
-                PRIVATE TRANSFERS & EXECUTIVE TRAVEL
-              </p>
+              <p className="about__description-sign-text">{t("about.label")}</p>
             </div>
           </div>
         </div>

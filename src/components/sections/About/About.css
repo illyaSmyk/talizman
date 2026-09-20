@@ -4,39 +4,20 @@
    ========================= */
 
 .about {
-  display: flex;
-  align-items: flex-start;
   padding: 40px var(--page-padding);
   background: var(--color-bg-deep);
 }
 
-.about__container {
-  width: 100%;
-  max-width: var(--container-width);
-  margin: 0 auto;
-}
-
 .about__info {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 48px;
-}
-.about__info-description {
-  font-family: "Cinzel", Georgia, serif;
-  font-size: 10px;
-  font-weight: 800;
-  color: #d8bd82;
-  text-transform: uppercase;
-  margin-bottom: 18px;
-  letter-spacing: 2px;
+  gap: var(--space-12);
 }
 
 .about__title {
   position: relative;
-  padding-bottom: 24px;
-  max-width: 700px;
+  padding-bottom: var(--space-6);
   color: var(--color-text-primary);
   font-family: "Cinzel", Georgia, serif;
   font-size: 39px;
@@ -52,7 +33,7 @@
 .about__title::after {
   content: "";
   position: absolute;
-  left: 50%;
+  left: 0;
   bottom: 0;
 
   width: 100%;
@@ -60,23 +41,22 @@
 
   background: var(--color-gold);
   opacity: 0.75;
-  transform: translateX(-50%);
 }
 
 .about__description {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: var(--space-10);
 }
 
 .about__description-services {
-  color: rgb(170, 165, 157);
-  line-height: 29px;
+  color: var(--color-text-soft);
+  line-height: 1.8;
 }
 .about__description-signature {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: var(--space-4);
 }
 
 .about__description-sign {
@@ -99,7 +79,7 @@
 .about__description-sign-text {
   font-size: 10px;
   color: rgb(116, 112, 105);
-  line-height: 14px;
+  line-height: 1.4;
 }
 
 /* =========================
@@ -114,14 +94,6 @@
 }
 
 /* =========================
-   LARGE TABLET / SMALL DESKTOP
-   769px+
-   ========================= */
-
-@media (min-width: 769px) {
-}
-
-/* =========================
    DESKTOP
    1101px+
    ========================= */
@@ -129,7 +101,7 @@
 @media (min-width: 1101px) {
   .about__info {
     flex-direction: row;
-    padding: 80px var(--page-padding);
+    padding-block: var(--space-20);
   }
 
   .about__info-box,
@@ -147,7 +119,7 @@
 
   .about__description {
     position: relative;
-    padding-top: 24px;
+    padding-top: var(--space-6);
   }
 
   .about__description::before {

@@ -1,38 +1,46 @@
 import "./Experience.css";
 import Button from "../../ui/Button/Button";
+import { useTranslation } from "react-i18next";
 
 import GirlToCar from "../../../assets/images/exit_section_service.png";
 import Logo from "../../../assets/icons/3.svg";
+import { localizedPath } from "../../i18n/localizedPath";
 
 function Experience() {
+  const { t, i18n } = useTranslation();
+
   return (
     <section className="experience" id="experience">
-      <div className="experience__container">
+      <div className="container">
         <div className="experience__info">
           <div className="experience__info-box">
-            <p className="experience__info-description">
-              PRIVATE TRAVEL, YOUR WAY
+            <p className="experience__info-description section-label">
+              {t("experience.label")}
             </p>
 
-            <h2 className="experience__title">Comfort from first moment.</h2>
+            <h2 className="experience__title section-title">
+              {t("experience.title")}
+            </h2>
+
             <p className="experience__description-services">
-              From the moment you are picked up, every journey is designed to
-              feel calm, private and comfortable.
+              {t("experience.description")}
             </p>
           </div>
         </div>
 
         <div className="experience__visual">
           <div className="experience__image-main">
-            <img src={GirlToCar} alt="A woman getting into a car" />
+            <img src={GirlToCar} alt={t("experience.imageAlt")} />
           </div>
 
           <div className="experience__visual-text">
             <div className="experience__end">
-              <h3 className="experience__end-title">Time to yourself.</h3>
+              <h3 className="experience__end-title">
+                {t("experience.end.title")}
+              </h3>
 
               <p className="experience__end-description">
-                Relax, work or simply enjoy the journey.
+                {t("experience.end.description")}
               </p>
             </div>
 
@@ -45,23 +53,28 @@ function Experience() {
                 <div className="experience__brand-name-box">
                   <span className="experience__brand-name">TALIZMAN</span>
                   <span className="experience__brand-tagline">
-                    Transfer Service
+                    {t("experience.brand.tagline")}
                   </span>
                 </div>
               </div>
 
               <div className="experience__brand-message">
-                <p>
-                  Whether you're travelling to the airport, across Slovakia or
-                  further into Europe, your journey is arranged around you.
+                <p className="experience__brand-message-text">
+                  {t("experience.brand.descriptionFirst")}
                 </p>
 
-                <p>
-                  Private pick-up, direct travel and personal service from start
-                  to finish.
+                <p className="experience__brand-message-text">
+                  {t("experience.brand.descriptionSecond")}
                 </p>
               </div>
-              <Button href="/gallery">View gallery</Button>
+
+              <Button href={localizedPath("/gallery", i18n.language)}>
+                {t("experience.viewGallery")}
+              </Button>
+
+              <Button href={localizedPath("/contact#booking", i18n.language)}>
+                {t("experience.bookTransfer")}
+              </Button>
             </div>
           </div>
         </div>

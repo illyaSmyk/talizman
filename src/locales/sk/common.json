@@ -1,0 +1,295 @@
+{
+  "navigation": {
+    "home": "Domov",
+    "prices": "Ceny",
+    "gallery": "Galéria",
+    "contact": "Kontakt"
+  },
+
+  "header": {
+    "mainNavigation": "Hlavná navigácia",
+    "chooseLanguage": "Vybrať jazyk",
+    "callUs": "Zavolajte nám",
+    "openMenu": "Otvoriť menu"
+  },
+
+  "mobileMenu": {
+  "closeMenu": "Zavrieť menu",
+  "navigation": "Mobilná navigácia",
+  "callUs": "Zavolajte nám",
+  "reservation": "Rezervácia"
+},
+
+"hero": {
+  "title": "OSOBNÁ DOPRAVA",
+  "description": "Spoľahlivá osobná doprava z Banskej Bystrice do Viedne, Budapešti, Bratislavy, Krakova a ďalších destinácií na Slovensku a v strednej Európe.",
+  "button": "Pozrieť ceny",
+  "availability": "Dostupnosť",
+  "doorToDoor": "OD DVERÍ K DVERÁM",
+  "service": "Služba",
+  "fixedPrices": "PEVNÉ CENY",
+  "noHiddenFees": "Bez skrytých poplatkov"
+},
+
+"about": {
+  "label": "OSOBNÁ DOPRAVA & SLUŽOBNÉ CESTY",
+  "titleJourney": "Pohodlie na cestách.",
+  "titleComfort": "Spoľahlivosť a osobný prístup.",
+  "descriptionFirst": "Talizman ponúka spoľahlivú a pohodlnú osobnú dopravu z Banskej Bystrice s individuálnym prístupom ku každému zákazníkovi.",
+  "descriptionSecond": "Zabezpečujeme transfery na letiská, služobné cesty aj diaľkovú dopravu po Slovensku a do krajín strednej Európy."
+},
+
+"services": {
+  "label": "Naše služby",
+  "title": "Odvezieme vás tam, kam potrebujete.",
+  "from": "Od",
+  "viewPrices": "Pozrieť ceny",
+  "airport": {
+    "title": "Letiskové transfery",
+    "description": "Spoľahlivá doprava na hlavné letiská v strednej Európe.",
+    "imageAlt": "Transfer na letisko"
+  },
+  "slovakia": {
+    "title": "Doprava po Slovensku",
+    "description": "Individuálne cesty medzi mestami a turistickými strediskami po celom Slovensku.",
+    "imageAlt": "Doprava po Slovensku"
+  },
+  "europe": {
+    "title": "Doprava do zahraničia",
+    "description": "Cesty zo Slovenska do Viedne, Budapešti, Krakova a ďalších európskych miest.",
+    "imageAlt": "Doprava do zahraničia"
+  }
+},
+
+"whyTalizman": {
+  "label": "PREČO TALIZMAN",
+  "titleFirst": "Každá cesta",
+  "titleSecond": "s dôrazom na vás.",
+  "driver": {
+    "title": "Profesionálny vodič",
+    "description": "Slušný a profesionálny prístup počas celej cesty."
+  },
+  "comfort": {
+    "title": "Pohodlie",
+    "description": "Čisté a pohodlné vozidlo pripravené na každú cestu, od transferu na letisko až po dlhšie trasy."
+  },
+  "punctuality": {
+    "title": "Dochvíľnosť",
+    "description": "Príchod v dohodnutom čase a cesta naplánovaná vopred."
+  },
+  "safety": {
+    "title": "Bezpečnosť",
+    "description": "Pokojná a zodpovedná jazda s dôrazom na bezpečnosť počas celej cesty."
+  },
+  "personalService": {
+    "title": "Osobný prístup",
+    "description": "Každú cestu prispôsobíme vášmu cieľu, času a individuálnym požiadavkám."
+  }
+},
+
+"experience": {
+  "label": "CESTUJTE PODĽA SEBA",
+  "title": "Pohodlie od prvého momentu.",
+  "description": "Od chvíle, keď vás vyzdvihneme, si môžete užívať pokojnú, súkromnú a pohodlnú cestu.",
+  "imageAlt": "Žena nastupujúca do auta",
+  "end": {
+    "title": "Čas pre seba.",
+    "description": "Oddýchnite si, pracujte alebo si jednoducho užívajte cestu."
+  },
+  "brand": {
+    "tagline": "Osobná doprava",
+    "descriptionFirst": "Či už cestujete na letisko, po Slovensku alebo ďalej do Európy, cestu prispôsobíme vašim potrebám.",
+    "descriptionSecond": "Súkromné vyzdvihnutie, priama cesta a osobný prístup od začiatku až do cieľa."
+  },
+  "viewGallery": "Pozrieť galériu",
+  "bookTransfer": "Rezervovať transfer"
+},
+
+"footer": {
+  "tagline": "Osobná doprava",
+  "description": "Spoľahlivá osobná doprava z Banskej Bystrice po Slovensku a do krajín strednej Európy.",
+  "contact": "Kontakt",
+  "copyright": "Všetky práva vyhradené.",
+  "privacy": "Ochrana osobných údajov",
+  "businessAddress": "Adresa podnikania"
+},
+
+"prices": {
+  "label": "CENY",
+  "title": "Jasné ceny pre vašu cestu.",
+  "description": "Vyberte si jednu z obľúbených trás alebo si vyžiadajte individuálnu cenovú ponuku.",
+  "routes": {
+    "from": "Banská Bystrica",
+    "individual": "Individuálna doprava",
+    "viennaAirport": "Letisko Viedeň",
+    "budapestAirport": "Letisko Budapešť",
+    "bratislavaAirport": "Letisko Bratislava",
+    "krakowAirport": "Letisko Krakov",
+    "kosiceAirport": "Letisko Košice",
+    "ukraineBorder": "Ukrajinská hranica",
+    "donovaly": "Donovaly"
+  }, "card": {
+  "imageAlt": "Cieľ cesty: {{destination}}",
+  "priceFrom": "cena od",
+  "requestTransfer": "Objednať transfer"
+}
+},
+
+"gallery": {
+  "label": "GALÉRIA",
+  "title": "TALIZMAN zblízka.",
+  "description": "Pozrite si bližšie vozidlo a pohodlie, ktoré môžete očakávať pri cestovaní s TALIZMAN.",
+  "question": "Pripravení vyraziť?",
+  "bookTransfer": "Rezervovať transfer"
+},
+
+"contact": {
+  "label": "KONTAKT",
+  "title": "Sme tu, keď nás potrebujete.",
+  "description": "Potrebujete odvoz alebo máte otázku? Kontaktujte nás a radi vám pomôžeme naplánovať cestu.",
+  "booking": {
+    "label": "NAPLÁNUJTE SI CESTU",
+    "description": "Napíšte nám, kam potrebujete ísť, a ozveme sa vám s podrobnosťami.",
+    "closeForm": "Zavrieť formulár",
+    "requestTransfer": "Objednať transfer"
+  }
+}, 
+
+"bookingForm": {
+  "from": {
+    "label": "Odkiaľ",
+    "placeholder": "Miesto vyzdvihnutia",
+    "required": "Zadajte miesto vyzdvihnutia."
+  },
+  "to": {
+    "label": "Kam",
+    "placeholder": "Cieľ cesty",
+    "required": "Zadajte cieľ cesty."
+  },
+
+  "date": {
+  "label": "Dátum",
+  "required": "Vyberte dátum cesty.",
+  "invalid": "Vyberte platný dátum cesty."
+},
+"time": {
+  "label": "Čas",
+  "required": "Vyberte čas cesty."
+},
+"passengers": {
+  "label": "Počet cestujúcich",
+  "required": "Vyberte počet cestujúcich."
+},
+"name": {
+  "label": "Meno",
+  "placeholder": "Vaše meno",
+  "required": "Zadajte svoje meno."
+},
+"phone": {
+  "label": "Telefón",
+  "required": "Zadajte telefónne číslo.",
+  "invalid": "Zadajte platné telefónne číslo."
+},
+
+"message": {
+  "label": "Doplňujúca správa",
+  "placeholder": "Číslo letu, detská sedačka alebo ďalšie informácie"
+},
+
+"privacy": {
+  "text": "Odoslaním formulára poskytujete údaje potrebné na spracovanie vašej požiadavky na transfer.",
+  "link": "Ochrana osobných údajov"
+},
+"submit": {
+  "sending": "Odosielam...",
+  "send": "Odoslať požiadavku"
+},
+"status": {
+  "success": "Vaša požiadavka bola úspešne odoslaná. Čoskoro sa vám ozveme.",
+  "error": "Niečo sa nepodarilo. Skúste to prosím znova."
+}
+},
+
+"privacy": {
+  "label": "OCHRANA OSOBNÝCH ÚDAJOV",
+  "title": "Ochrana osobných údajov",
+  "lastUpdated": "Posledná aktualizácia: september 2026",
+  "sections": {
+    "whoWeAre": {
+  "title": "1. Kto sme",
+  "description": "Prevádzkovateľom zodpovedným za spracúvanie vašich osobných údajov je:",
+  "soleTrader": "Živnostník",
+  "email": "E-mail",
+  "country": "Slovensko"
+},
+
+"dataCollected": {
+  "title": "2. Aké osobné údaje zhromažďujeme",
+  "intro": "Keď odošlete požiadavku na transfer prostredníctvom nášho rezervačného formulára, môžeme zhromažďovať:",
+  "name": "Vaše meno",
+  "phone": "Telefónne číslo",
+  "departure": "Miesto odchodu",
+  "destination": "Cieľ cesty",
+  "dateTime": "Požadovaný dátum a čas",
+  "passengers": "Počet cestujúcich",
+  "additionalInfo": "Ďalšie informácie, ktoré dobrovoľne uvediete v poli správy",
+  "sensitiveInfo": "Do poľa správy, prosím, neuvádzajte nepotrebné citlivé osobné údaje."
+},
+
+"purpose": {
+  "title": "3. Prečo spracúvame vaše údaje",
+  "intro": "Tieto údaje spracúvame, aby sme mohli:",
+  "respond": "Odpovedať na vašu požiadavku na transfer",
+  "communicate": "Komunikovať s vami o požadovanej ceste",
+  "arrange": "Pripraviť a zabezpečiť váš transfer",
+  "provideService": "Poskytnúť požadovanú prepravnú službu",
+  "legalBasis": "Právnym základom tohto spracúvania je článok 6 ods. 1 písm. b) GDPR — spracúvanie je nevyhnutné na vykonanie opatrení na vašu žiadosť pred uzatvorením zmluvy a prípadne na poskytnutie dohodnutej služby."
+},
+
+"bookingProcessing": {
+  "title": "4. Ako prijímame a spracúvame požiadavky na rezerváciu",
+  "description": "Naša webová stránka používa službu Web3Forms na spracovanie údajov odoslaných prostredníctvom rezervačného formulára. Po odoslaní formulára sa zadané údaje prenesú prostredníctvom služby Web3Forms a doručia na našu e-mailovú adresu.",
+  "provider": "Web3Forms je poskytovateľ služby tretej strany, ktorý sa podieľa na spracovaní údajov odoslaných prostredníctvom formulára."
+},
+
+"retention": {
+  "title": "5. Ako dlho uchovávame vaše údaje",
+  "bookingEmails": "E-maily s požiadavkami na rezerváciu vymažeme do 3 dní po dokončení cesty.",
+  "web3forms": "Údaje odoslané prostredníctvom Web3Forms sú nastavené tak, aby sa automaticky vymazali po 7 dňoch.",
+  "legalObligations": "Niektoré údaje môže byť potrebné uchovávať dlhšie, ak to vyžadujú platné právne, účtovné alebo daňové povinnosti."
+},
+
+"sharing": {
+  "title": "6. Zdieľanie vašich osobných údajov",
+  "noSale": "Vaše osobné údaje nepredávame.",
+  "providers": "Vaše údaje o rezervácii môžu spracúvať poskytovatelia služieb, ktorí sú potrební na prevádzku rezervačného formulára a e-mailovej komunikácie, vrátane Web3Forms a nášho poskytovateľa e-mailových služieb.",
+  "law": "Osobné údaje môžu byť poskytnuté aj v prípadoch, keď to vyžadujú platné právne predpisy."
+},
+
+"rights": {
+  "title": "7. Vaše práva",
+  "intro": "Za podmienok stanovených platnými právnymi predpismi o ochrane osobných údajov môžete mať právo:",
+  "access": "Požiadať o prístup k svojim osobným údajom",
+  "correction": "Požiadať o opravu nesprávnych osobných údajov",
+  "deletion": "Požiadať o vymazanie svojich osobných údajov",
+  "restriction": "Požiadať o obmedzenie spracúvania",
+  "portability": "Uplatniť právo na prenosnosť údajov, ak je to relevantné",
+  "object": "Namietať proti spracúvaniu, ak je to relevantné",
+  "complaint": "Máte tiež právo podať sťažnosť príslušnému dozornému orgánu na ochranu osobných údajov.",
+  "contact": "Ak chcete uplatniť svoje práva alebo máte otázku týkajúcu sa vašich osobných údajov, kontaktujte nás na adrese"
+},
+
+"cookies": {
+  "title": "8. Súbory cookies a analytika",
+  "current": "V súčasnosti táto webová stránka nepoužíva reklamné ani analytické sledovacie technológie, ako sú Google Analytics alebo Meta Pixel.",
+  "future": "Ak budú v budúcnosti zavedené reklamné, analytické alebo iné nepodstatné sledovacie technológie, tieto zásady ochrany osobných údajov a mechanizmy súhlasu na webovej stránke budú zodpovedajúcim spôsobom aktualizované."
+},
+
+"changes": {
+  "title": "9. Zmeny týchto zásad ochrany osobných údajov",
+  "description": "Tieto zásady ochrany osobných údajov môžeme aktualizovať, ak sa zmení naša webová stránka, služby alebo spôsob spracúvania osobných údajov. Najnovšia verzia bude vždy dostupná na tejto stránke."
+}
+  }
+}
+}
+

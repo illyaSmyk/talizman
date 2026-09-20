@@ -1,16 +1,21 @@
 import "./WhyTalizman.css";
+import { useTranslation } from "react-i18next";
 
 function WhyTalizman() {
+  const { t } = useTranslation();
+
   return (
     <section className="whytalizman" id="whytalizman">
-      <div className="whytalizman__container">
+      <div className="container">
         <div className="whytalizman__info">
           <div className="whytalizman__info-box">
-            <p className="whytalizman__info-description">WHY TALIZMAN</p>
+            <p className="whytalizman__info-description section-label">
+              {t("whyTalizman.label")}
+            </p>
 
-            <h2 className="whytalizman__title">
-              <span>Every journey,</span>
-              <span>handled with care.</span>
+            <h2 className="whytalizman__title section-title">
+              <span>{t("whyTalizman.titleFirst")}</span>
+              <span>{t("whyTalizman.titleSecond")}</span>
             </h2>
 
             <div className="whytalizman__ornament" aria-hidden="true">
@@ -28,12 +33,11 @@ function WhyTalizman() {
 
               <div className="whytalizman__item-content">
                 <h3 className="whytalizman__description-title">
-                  Professional Driver
+                  {t("whyTalizman.driver.title")}
                 </h3>
 
                 <p className="whytalizman__description-services">
-                  Professional, courteous and attentive service throughout your
-                  journey.
+                  {t("whyTalizman.driver.description")}
                 </p>
               </div>
             </div>
@@ -42,11 +46,12 @@ function WhyTalizman() {
               <span className="whytalizman__number">02</span>
 
               <div className="whytalizman__item-content">
-                <h3 className="whytalizman__description-title">Comfort</h3>
+                <h3 className="whytalizman__description-title">
+                  {t("whyTalizman.comfort.title")}
+                </h3>
 
                 <p className="whytalizman__description-services">
-                  A clean and comfortable vehicle prepared for every journey,
-                  whether it’s an airport transfer or a long-distance trip.
+                  {t("whyTalizman.comfort.description")}
                 </p>
               </div>
             </div>
@@ -55,11 +60,12 @@ function WhyTalizman() {
               <span className="whytalizman__number">03</span>
 
               <div className="whytalizman__item-content">
-                <h3 className="whytalizman__description-title">Punctuality</h3>
+                <h3 className="whytalizman__description-title">
+                  {t("whyTalizman.punctuality.title")}
+                </h3>
 
                 <p className="whytalizman__description-services">
-                  Reliable pick-up at the agreed time, with every journey
-                  planned in advance.
+                  {t("whyTalizman.punctuality.description")}
                 </p>
               </div>
             </div>
@@ -68,11 +74,12 @@ function WhyTalizman() {
               <span className="whytalizman__number">04</span>
 
               <div className="whytalizman__item-content">
-                <h3 className="whytalizman__description-title">Safety</h3>
+                <h3 className="whytalizman__description-title">
+                  {t("whyTalizman.safety.title")}
+                </h3>
 
                 <p className="whytalizman__description-services">
-                  A calm and responsible approach to driving, with your safety
-                  and comfort in mind throughout the journey.
+                  {t("whyTalizman.safety.description")}
                 </p>
               </div>
             </div>
@@ -82,12 +89,11 @@ function WhyTalizman() {
 
               <div className="whytalizman__item-content">
                 <h3 className="whytalizman__description-title">
-                  Personal Service
+                  {t("whyTalizman.personalService.title")}
                 </h3>
 
                 <p className="whytalizman__description-services">
-                  Every transfer is arranged individually around your
-                  destination, schedule and travel requirements.
+                  {t("whyTalizman.personalService.description")}
                 </p>
               </div>
             </div>

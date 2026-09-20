@@ -3,11 +3,33 @@
    ========================= */
 
 .header {
-  position: relative;
-  z-index: 100;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
   width: 100%;
   padding: 20px 0;
   background: var(--color-bg-deep);
+}
+
+.header__phone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
+
+.header__phone-icon {
+  width: 44px;
+  height: 44px;
+}
+
+.header__phone-label,
+.header__phone-number {
+  display: none;
 }
 
 .header__inner {
@@ -27,9 +49,11 @@
   display: flex;
   align-items: center;
   flex-shrink: 0;
+  gap: var(--space-4);
 }
 
-.header__menu {
+.header__menu,
+.mobile-menu__close {
   display: grid;
   place-items: center;
 
@@ -76,22 +100,6 @@
   background: var(--color-bg-deep);
 }
 
-.mobile-menu__close {
-  display: grid;
-  place-items: center;
-
-  width: 44px;
-  height: 44px;
-  flex: 0 0 44px;
-
-  padding: 0;
-  border: 1px solid var(--color-gold);
-  border-radius: 8px;
-  background: transparent;
-
-  cursor: pointer;
-}
-
 .mobile-menu__close img {
   width: 22px;
   height: 22px;
@@ -102,8 +110,8 @@
   flex-direction: column;
   gap: 24px;
   padding: 48px var(--page-padding);
-
-  cursor: pointer;
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 28px;
 }
 
 .mobile-menu__nav-link {
@@ -112,40 +120,15 @@
   padding-bottom: 20px;
 
   color: var(--color-text-primary);
-  font-family: "Cinzel", Georgia, serif;
-  font-size: 28px;
   text-decoration: none;
 
   border-bottom: 1px solid var(--color-border);
-  transition:
-    color var(--transition-fast),
-    opacity var(--transition-fast);
-}
-
-.mobile-menu__nav-link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -8px;
-
-  width: 100%;
-  height: 1px;
-
-  background: var(--color-gold);
-
-  transform: scaleX(0);
-  transform-origin: center;
-  transition: transform var(--transition-fast);
+  transition: color var(--transition-fast);
 }
 
 .mobile-menu__nav-link:hover,
 .mobile-menu__nav-link:focus-visible {
   color: var(--color-gold-light);
-}
-
-.mobile-menu__nav-link:hover::after,
-.mobile-menu__nav-link:focus-visible::after {
-  transform: scaleX(1);
 }
 
 .mobile-menu__bottom {
@@ -183,7 +166,8 @@
   transition:
     color 300ms ease,
     border-color 300ms ease,
-    background-color 300ms ease;
+    background-color 300ms ease,
+    transform var(--transition-fast);
 }
 
 .mobile-menu__language:hover,
@@ -238,16 +222,42 @@
    ========================= */
 
 @media (min-width: 641px) {
-  .header {
-    padding: 24px 0;
-  }
-
-  .header__inner {
-    gap: 32px;
-  }
-
   .header__languages {
+    position: relative;
     display: flex;
+  }
+
+  .header__language-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    min-width: 58px;
+    border: 1px solid rgba(195, 164, 107, 0.45);
+    background: var(--color-bg-deep);
+  }
+
+  .header__language-dropdown button {
+    height: 36px;
+    padding: 0 12px;
+    border: 0;
+    background: transparent;
+    color: var(--color-gold);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+
+    transition:
+      color var(--transition-fast),
+      background-color var(--transition-fast);
+  }
+
+  .header__language-dropdown button:hover,
+  .header__language-dropdown button:focus-visible {
+    color: var(--color-gold-light);
+    background-color: rgba(195, 164, 107, 0.14);
   }
 
   .header__language-trigger {
@@ -270,12 +280,16 @@
     letter-spacing: 0.1em;
 
     cursor: pointer;
+
+    transition:
+      color var(--transition-fast),
+      border-color var(--transition-fast),
+      background-color var(--transition-fast);
   }
 
   .header__language-arrow {
     width: 0;
     height: 0;
-
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
     border-top: 5px solid currentColor;
@@ -284,6 +298,13 @@
   .header__actions {
     gap: 24px;
   }
+
+  .header__language-trigger:hover,
+  .header__language-trigger:focus-visible {
+    color: var(--color-gold-light);
+    border-color: var(--color-gold-light);
+    background-color: rgba(195, 164, 107, 0.14);
+  }
 }
 
 /* =========================
@@ -291,26 +312,57 @@
    ========================= */
 
 @media (min-width: 1101px) {
+  .header__menu {
+    display: none;
+  }
+
+  .header__phone {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: 10px var(--space-4);
+    width: auto;
+    height: auto;
+    border: 1px solid var(--color-gold);
+    border-radius: var(--radius-md);
+  }
+
+  .header__phone-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+
+  .header__phone-number {
+    display: inline;
+  }
+
+  .header__phone:hover,
+  .header__phone:focus-visible {
+    color: var(--color-gold-light);
+    border-color: var(--color-gold-light);
+  }
+
   .header__nav {
     display: flex;
     align-items: center;
-    gap: 32px;
-
+    gap: 60px;
     font-size: 20px;
   }
 
-  .header__nav a {
+  .header__nav-link {
     position: relative;
-
     color: var(--color-text-primary);
     text-decoration: none;
-
-    transition:
-      color var(--transition-fast),
-      opacity var(--transition-fast);
+    transition: color var(--transition-fast);
   }
 
-  .header__nav a::after {
+  .header__nav-link:hover,
+  .header__nav-link:focus-visible {
+    color: var(--color-gold-light);
+  }
+
+  .header__nav-link::after {
     content: "";
     position: absolute;
     left: 0;
@@ -326,18 +378,13 @@
     transition: transform var(--transition-fast);
   }
 
-  .header__nav a:hover,
-  .header__nav a:focus-visible {
-    color: var(--color-gold-light);
-  }
-
-  .header__nav a:hover::after,
-  .header__nav a:focus-visible::after {
+  .header__nav-link:hover::after,
+  .header__nav-link:focus-visible::after {
     transform: scaleX(1);
   }
 
-  .header__menu {
-    display: none;
+  .header__nav-link--active {
+    color: var(--color-gold);
   }
 
   .header__actions .button {

@@ -1,13 +1,292 @@
 {
   "navigation": {
-    "services": "Services",
-    "transfers": "Transfers & Prices",
-    "vehicle": "Vehicle",
-    "about": "About",
-    "contact": "Contact",
-    "book": "Book a transfer"
+    "home": "Home",
+    "prices": "Prices",
+    "gallery": "Gallery",
+    "contact": "Contact"
   },
+
+  "header": {
+    "mainNavigation": "Main navigation",
+    "chooseLanguage": "Choose language",
+    "callUs": "Call us",
+    "openMenu": "Open menu"
+  },
+
   "brand": {
     "tagline": "Premium Transfer Service"
+  },
+
+  "mobileMenu": {
+  "closeMenu": "Close menu",
+  "navigation": "Mobile navigation",
+  "callUs": "Call us",
+  "reservation": "Reservation"
+},
+
+"hero": {
+  "title": "PRIVATE TRANSFERS",
+  "description": "Reliable private transfers from Banská Bystrica to Vienna, Budapest, Bratislava, Krakow and other destinations across Slovakia and Central Europe.",
+  "button": "View transfers & prices",
+  "availability": "Availability",
+  "doorToDoor": "DOOR-TO-DOOR",
+  "service": "Service",
+  "fixedPrices": "FIXED PRICES",
+  "noHiddenFees": "No hidden fees"
+},
+
+"about": {
+  "label": "PRIVATE TRANSFERS & EXECUTIVE TRAVEL",
+  "titleJourney": "Your journey.",
+  "titleComfort": "Your comfort.",
+  "descriptionFirst": "Talizman provides private transfers from Banská Bystrica with a focus on comfort, reliability and personal service.",
+  "descriptionSecond": "Every journey is arranged individually — from airport and business transfers to long-distance travel across Slovakia and Central Europe."
+},
+
+"services": {
+  "label": "Our services",
+  "title": "Travel where you need to be.",
+  "from": "From",
+  "viewPrices": "View prices",
+  "airport": {
+    "title": "Airport Transfers",
+    "description": "Private transfers to major airports across Central Europe.",
+    "imageAlt": "Airport transfer"
+  },
+  "slovakia": {
+    "title": "Slovakia Transfers",
+    "description": "Comfortable private transfers to destinations across Slovakia.",
+    "imageAlt": "Transfer across Slovakia"
+  },
+  "europe": {
+    "title": "European Transfers",
+    "description": "Private long-distance transfers across Central Europe.",
+    "imageAlt": "European transfer"
+  }
+},
+
+"whyTalizman": {
+  "label": "WHY TALIZMAN",
+  "titleFirst": "Every journey,",
+  "titleSecond": "handled with care.",
+  "driver": {
+    "title": "Professional Driver",
+    "description": "Professional, courteous and attentive service throughout your journey."
+  },
+  "comfort": {
+    "title": "Comfort",
+    "description": "A clean and comfortable vehicle prepared for every journey, from airport transfers to long-distance travel."
+  },
+  "punctuality": {
+    "title": "Punctuality",
+    "description": "Reliable pick-up at the agreed time, with every journey planned in advance."
+  },
+  "safety": {
+    "title": "Safety",
+    "description": "A calm and responsible approach to driving, with your safety in mind throughout the journey."
+  },
+  "personalService": {
+    "title": "Personal Service",
+    "description": "Every journey is arranged around your destination, schedule and individual requirements."
+  }
+},
+
+"experience": {
+  "label": "PRIVATE TRAVEL, YOUR WAY",
+  "title": "Comfort from the first moment.",
+  "description": "From the moment you are picked up, every journey is designed to feel calm, private and comfortable.",
+  "imageAlt": "A woman getting into a car",
+  "end": {
+    "title": "Time to yourself.",
+    "description": "Relax, work or simply enjoy the journey."
+  },
+  "brand": {
+    "tagline": "Transfer Service",
+    "descriptionFirst": "Whether you're travelling to the airport, across Slovakia or further into Europe, your journey is arranged around you.",
+    "descriptionSecond": "Private pick-up, direct travel and personal service from start to finish."
+  },
+  "viewGallery": "View gallery",
+  "bookTransfer": "Book a transfer"
+},
+
+"footer": {
+  "tagline": "Transfer Service",
+  "description": "Private transfers from Banská Bystrica across Slovakia and Central Europe.",
+  "contact": "Contact",
+  "copyright": "All rights reserved.",
+  "privacy": "Privacy Policy",
+  "businessAddress": "Business address"
+},
+
+"prices": {
+  "label": "PRICES",
+  "title": "Clear pricing for your journey.",
+  "description": "Choose a popular route or request an individual quote.",
+  "routes": {
+    "from": "Banská Bystrica",
+    "individual": "Individual Transfer",
+    "viennaAirport": "Vienna Airport",
+    "budapestAirport": "Budapest Airport",
+    "bratislavaAirport": "Bratislava Airport",
+    "krakowAirport": "Krakow Airport",
+    "kosiceAirport": "Košice Airport",
+    "ukraineBorder": "Ukraine Border",
+    "donovaly": "Donovaly"
+  }, 
+
+  "card": {
+  "imageAlt": "Destination: {{destination}}",
+  "priceFrom": "price from",
+  "requestTransfer": "Request transfer"
+}
+},
+
+"gallery": {
+  "label": "GALLERY",
+  "title": "Travel in comfort.",
+  "description": "A closer look at the vehicle and the experience you can expect with TALIZMAN.",
+  "question": "Ready for your journey?",
+  "bookTransfer": "Book a transfer"
+},
+
+"contact": {
+  "label": "CONTACT",
+  "title": "Ready when you are.",
+  "description": "Need a transfer or have a question? Get in touch and we'll help arrange your journey.",
+  "booking": {
+    "label": "PLAN YOUR JOURNEY",
+    "description": "Tell us where you need to go and we'll get back to you with the details.",
+    "closeForm": "Close form",
+    "requestTransfer": "Request a transfer"
+  }
+},
+
+"bookingForm": {
+  "from": {
+    "label": "From",
+    "placeholder": "Pickup location",
+    "required": "Pickup location is required."
+  },
+  "to": {
+    "label": "To",
+    "placeholder": "Destination",
+    "required": "Destination is required."
+  },
+  "date": {
+    "label": "Date",
+    "required": "Travel date is required.",
+    "invalid": "Please select a valid travel date."
+  },
+  "time": {
+    "label": "Time",
+    "required": "Travel time is required."
+  },
+  "passengers": {
+    "label": "Passengers",
+    "required": "Please select the number of passengers."
+  },
+  "name": {
+    "label": "Name",
+    "placeholder": "Your name",
+    "required": "Your name is required."
+  },
+  "phone": {
+    "label": "Phone",
+    "required": "Phone number is required.",
+    "invalid": "Please enter a valid phone number."
+  },
+  "message": {
+    "label": "Additional message",
+    "placeholder": "Flight number, child seat or other details"
+  },
+  "privacy": {
+    "text": "By submitting this form, you provide the information needed to process your transfer request.",
+    "link": "Privacy Policy"
+  },
+  "submit": {
+    "sending": "Sending...",
+    "send": "Send request"
+  },
+  "status": {
+    "success": "Your request has been sent successfully. We'll get back to you shortly.",
+    "error": "Something went wrong. Please try again."
+  }
+},
+
+"privacy": {
+  "label": "PRIVACY",
+  "title": "Privacy Policy",
+  "lastUpdated": "Last updated: September 2026",
+  "sections": {
+    "whoWeAre": {
+      "title": "1. Who we are",
+      "description": "The controller responsible for the processing of your personal data is:",
+      "soleTrader": "Sole trader (živnostník)",
+      "email": "Email",
+      "country": "Slovakia"
+    },
+    "dataCollected": {
+      "title": "2. What personal data we collect",
+      "intro": "When you submit a transfer request through our booking form, we may collect:",
+      "name": "Your name",
+      "phone": "Telephone number",
+      "departure": "Departure location",
+      "destination": "Destination",
+      "dateTime": "Requested date and time",
+      "passengers": "Number of passengers",
+      "additionalInfo": "Any additional information you voluntarily provide in the message field",
+      "sensitiveInfo": "Please do not include unnecessary sensitive personal information in the message field."
+    },
+    "purpose": {
+      "title": "3. Why we process your data",
+      "intro": "We process this information in order to:",
+      "respond": "Respond to your transfer request",
+      "communicate": "Communicate with you about the requested journey",
+      "arrange": "Prepare and arrange your transfer",
+      "provideService": "Provide the requested transport service",
+      "legalBasis": "The legal basis for this processing is Article 6(1)(b) GDPR — processing necessary to take steps at your request before entering into a contract and, where applicable, to perform the agreed service."
+    },
+    "bookingProcessing": {
+      "title": "4. How we receive and process booking requests",
+      "description": "Our website uses Web3Forms to process booking form submissions. When you submit the booking form, the information entered in the form is transmitted through Web3Forms and delivered to our email address.",
+      "provider": "Web3Forms acts as a third-party service provider involved in processing the form submission."
+    },
+    "retention": {
+      "title": "5. How long we keep your data",
+      "bookingEmails": "Booking request emails are deleted by us within 3 days after the completed journey.",
+      "web3forms": "Form submissions processed through Web3Forms are configured to be automatically deleted after 7 days.",
+      "legalObligations": "Certain information may need to be retained for a longer period where this is required by applicable legal, accounting or tax obligations."
+    },
+    "sharing": {
+      "title": "6. Sharing your personal data",
+      "noSale": "We do not sell your personal data.",
+      "providers": "Your booking information may be processed by service providers that are necessary to operate the booking form and email communication, including Web3Forms and our email service provider.",
+      "law": "Personal data may also be disclosed where required by applicable law."
+    },
+    "rights": {
+      "title": "7. Your rights",
+      "intro": "Subject to the conditions provided by applicable data protection law, you may have the right to:",
+      "access": "Request access to your personal data",
+      "correction": "Request correction of inaccurate personal data",
+      "deletion": "Request deletion of your personal data",
+      "restriction": "Request restriction of processing",
+      "portability": "Exercise your right to data portability where applicable",
+      "object": "Object to processing where applicable",
+      "complaint": "You also have the right to lodge a complaint with the competent data protection supervisory authority.",
+      "contact": "To exercise your rights or ask a question about your personal data, contact"
+    },
+    "cookies": {
+      "title": "8. Cookies and analytics",
+      "current": "At present, this website does not use advertising or analytics tracking technologies such as Google Analytics or Meta Pixel.",
+      "future": "If advertising, analytics or other non-essential tracking technologies are introduced in the future, this Privacy Policy and the website's consent mechanisms will be updated accordingly."
+    },
+    "changes": {
+      "title": "9. Changes to this Privacy Policy",
+      "description": "We may update this Privacy Policy when our website, services or data-processing practices change. The latest version will always be available on this page."
+    }
   }
 }
+
+
+}
+

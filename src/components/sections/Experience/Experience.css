@@ -2,12 +2,6 @@
   padding: 60px var(--page-padding);
 }
 
-.experience__container {
-  width: 100%;
-  max-width: var(--container-width);
-  margin-inline: auto;
-}
-
 /* Intro */
 
 .experience__info {
@@ -17,35 +11,13 @@
 .experience__info-box {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-}
-
-.experience__info-description {
-  margin: 0;
-  color: var(--color-gold);
-  font-family: "Cinzel", Georgia, serif;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-}
-
-.experience__title {
-  margin: 0;
-  max-width: 700px;
-  color: var(--color-text-primary);
-  font-family: "Cinzel", Georgia, serif;
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 1.25;
+  gap: var(--space-6);
 }
 
 .experience__description-services {
   margin: 0;
-  max-width: 650px;
   color: rgb(170, 165, 157);
-  font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.8;
 }
 
 /* Visual */
@@ -53,7 +25,7 @@
 .experience__visual {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: var(--space-8);
 }
 
 .experience__image-main {
@@ -73,13 +45,13 @@
 .experience__visual-text {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: var(--space-8);
 }
 
 .experience__end {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: var(--space-3);
 }
 
 .experience__end-title {
@@ -93,9 +65,8 @@
 
 .experience__end-description {
   margin: 0;
-  color: rgb(170, 165, 157);
-  font-size: 16px;
-  line-height: 1.7;
+  color: var(--color-text-soft);
+  line-height: 1.8;
 }
 
 /* Brand */
@@ -103,13 +74,13 @@
 .experience__brand {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: var(--space-6);
 }
 
 .experience__brand-heading {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: var(--space-3);
 }
 
 .experience__brand-logo {
@@ -125,7 +96,6 @@
 .experience__brand-name-box {
   display: flex;
   flex-direction: column;
-  gap: 2px;
 }
 
 .experience__brand-name {
@@ -144,53 +114,35 @@
 }
 
 .experience__brand-message {
-  padding: 24px;
+  padding: var(--space-6);
   border: 1px solid var(--color-gold);
-  border-radius: 8px;
-  margin-bottom: 20px;
+  border-radius: var(--radius-md);
 }
 
-.experience__brand-message p {
+.experience__brand-message-text {
   margin: 0;
-  color: rgb(170, 165, 157);
-  font-size: 15px;
-  line-height: 1.75;
+  color: var(--color-text-soft);
+  line-height: 1.8;
 }
 
-.experience__brand-message p + p {
-  margin-top: 16px;
+.experience__brand-message-text + .experience__brand-message-text {
+  margin-top: var(--space-4);
 }
 
 /* Desktop */
 
 @media (min-width: 1101px) {
   .experience {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-block: var(--space-20);
   }
 
   .experience__info {
-    margin-bottom: 64px;
-  }
-
-  .experience__info-box {
-    gap: 20px;
-  }
-
-  .experience__title {
-    max-width: none;
-    font-size: clamp(50px, 5vw, 72px);
-    line-height: 1.1;
-  }
-
-  .experience__description-services {
-    max-width: 700px;
+    margin-bottom: var(--space-16);
   }
 
   .experience__visual {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    gap: 32px;
     align-items: stretch;
   }
 
@@ -199,13 +151,5 @@
     min-height: 520px;
     border: 1px solid var(--color-gold);
     padding: 6px;
-  }
-
-  .experience__visual-text {
-    height: 100%;
-  }
-
-  .experience__brand {
-    flex: 1;
   }
 }

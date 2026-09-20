@@ -8,37 +8,8 @@
   background: var(--color-bg-primary);
 }
 
-.services__container {
-  width: 100%;
-  max-width: var(--container-width);
-  margin: 0 auto;
-}
-
 .services__heading {
-  margin-bottom: 48px;
-}
-
-.services__eyebrow {
-  margin-bottom: 16px;
-
-  color: var(--color-gold);
-
-  font-family: "Cinzel", Georgia, serif;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-}
-
-.services__title {
-  max-width: 700px;
-
-  color: var(--color-text-primary);
-
-  font-family: "Cinzel", Georgia, serif;
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 1.25;
+  margin-bottom: var(--space-12);
 }
 
 .services__list {
@@ -47,47 +18,38 @@
 }
 
 .services__item {
-  padding-bottom: 48px;
+  padding-bottom: var(--space-12);
   border-bottom: 1px solid var(--color-border);
 }
 
 .services__item + .services__item {
-  padding-top: 48px;
+  padding-top: var(--space-12);
 }
 
 .services__image {
   width: 100%;
   aspect-ratio: 16 / 10;
   overflow: hidden;
-  margin-bottom: 32px;
+  margin-bottom: var(--space-8);
 }
 
 .services__image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.services__content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  transition: transform var(--transition-base);
 }
 
 .services__number {
-  margin-bottom: 16px;
-
+  margin-bottom: var(--space-4);
   color: var(--color-gold);
-
   font-family: "Cinzel", Georgia, serif;
   font-size: 20px;
 }
 
 .services__item-title {
-  margin-bottom: 20px;
-
+  margin-bottom: var(--space-6);
   color: var(--color-text-primary);
-
   font-family: "Cinzel", Georgia, serif;
   font-size: 26px;
   font-weight: 500;
@@ -96,20 +58,14 @@
 }
 
 .services__text {
-  margin-bottom: 28px;
-
-  color: var(--color-text-secondary);
-
-  font-size: 16px;
-  line-height: 1.7;
+  margin-bottom: var(--space-8);
+  color: var(--color-text-soft);
+  line-height: 1.8;
 }
 
 .services__price {
-  margin-bottom: 32px;
-
+  margin-bottom: var(--space-8);
   color: var(--color-gold-light);
-
-  font-family: "Cinzel", Georgia, serif;
   font-size: 22px;
 }
 
@@ -117,10 +73,10 @@
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
+  gap: var(--space-6);
 
   width: 100%;
-  padding-bottom: 12px;
+  padding-bottom: var(--space-3);
 
   border-bottom: 1px solid rgba(195, 164, 107, 0.6);
 
@@ -143,53 +99,34 @@
   border-color: var(--color-gold);
 }
 
-.services__link span {
+.services__link-arrow {
   font-size: 20px;
   line-height: 1;
 }
 
 /* =========================
-
    DESKTOP
-
    1101px+
-
    ========================= */
 
 @media (min-width: 1101px) {
   .services__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0;
   }
 
   .services__item + .services__item {
     padding-top: 0;
-  }
-
-  .services__item {
-    padding: 0 32px 40px;
-    border-bottom: 1px solid var(--color-border);
-  }
-
-  .services__item + .services__item {
     border-left: 1px solid var(--color-border);
   }
 
-  .services__image {
-    width: 100%;
-
-    aspect-ratio: 16 / 10;
-
-    overflow: hidden;
-
-    border: 1px solid transparent;
-
-    transition: border-color var(--transition-fast);
+  .services__item {
+    padding: 0 var(--space-8) var(--space-10);
   }
 
-  .services__item:hover .services__image {
-    border-color: var(--color-gold);
+  .services__image {
+    border: 1px solid transparent;
+    transition: border-color var(--transition-fast);
   }
 
   .services__item:hover .services__image {

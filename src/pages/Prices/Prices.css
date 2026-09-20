@@ -1,0 +1,31 @@
+.prices {
+  padding: var(--space-20) var(--page-padding);
+  background: var(--color-bg-primary);
+}
+
+.prices__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+  margin-top: var(--space-12);
+}
+
+.prices__description {
+  max-width: 600px;
+  margin: var(--space-6) 0 0;
+  color: var(--color-text-soft);
+  line-height: 1.8;
+}
+
+@media (min-width: 641px) {
+  .prices__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1101px) {
+  .prices__grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-8);
+  }
+}
