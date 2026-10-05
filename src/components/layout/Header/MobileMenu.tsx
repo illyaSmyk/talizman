@@ -119,13 +119,13 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         </div>
 
         <div className="mobile-menu__contact-actions">
-          <a className="mobile-menu__contact-action" href="tel:+421...">
-            {t("mobileMenu.callUs")} →
+          <a className="mobile-menu__contact-action" href="tel:+421947178526">
+            {t("mobileMenu.callUs")}
           </a>
 
           <a
             className="mobile-menu__contact-action"
-            href="https://wa.me/421..."
+            href="https://wa.me/421947178526"
           >
             <img
               className="mobile-menu__contact-icon"

@@ -6,6 +6,29 @@
     "contact": "Contact"
   },
 
+ "seo": {
+  "home": {
+    "title": "Private Transfers from Banská Bystrica | TALIZMAN",
+    "description": "Reliable private transfers from Banská Bystrica to airports and destinations across Slovakia and Central Europe."
+  },
+  "prices": {
+    "title": "Transfer Prices from Banská Bystrica | TALIZMAN",
+    "description": "View transfer prices from Banská Bystrica to airports and popular destinations across Slovakia and Central Europe."
+  },
+  "gallery": {
+    "title": "Gallery | TALIZMAN",
+    "description": "Take a closer look at the Renault Talisman and the comfort you can expect when travelling with TALIZMAN."
+  },
+  "contact": {
+    "title": "Contact & Book a Transfer | TALIZMAN",
+    "description": "Contact TALIZMAN to request a private transfer from Banská Bystrica across Slovakia or Central Europe."
+  },
+  "privacy": {
+    "title": "Privacy Policy | TALIZMAN",
+    "description": "Information about how TALIZMAN processes and protects personal data submitted through the website and booking form."
+  }
+},
+
   "header": {
     "mainNavigation": "Main navigation",
     "chooseLanguage": "Choose language",
@@ -124,7 +147,7 @@
   "description": "Choose a popular route or request an individual quote.",
   "routes": {
     "from": "Banská Bystrica",
-    "individual": "Individual Transfer",
+    "individual": "Private Transfer",
     "viennaAirport": "Vienna Airport",
     "budapestAirport": "Budapest Airport",
     "bratislavaAirport": "Bratislava Airport",
@@ -146,7 +169,15 @@
   "title": "Travel in comfort.",
   "description": "A closer look at the vehicle and the experience you can expect with TALIZMAN.",
   "question": "Ready for your journey?",
-  "bookTransfer": "Book a transfer"
+  "bookTransfer": "Book a transfer",
+  "images": {
+  "exterior": "Renault Talisman exterior",
+  "enter": "Passenger entering the Renault Talisman",
+  "rearSeats": "Rear passenger seats of the Renault Talisman",
+  "womanInCar": "Passenger inside the Renault Talisman",
+  "luggage": "Luggage prepared for a transfer",
+  "driver": "TALIZMAN driver"
+}
 },
 
 "contact": {

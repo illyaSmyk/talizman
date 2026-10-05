@@ -141,7 +141,7 @@
 
 .mobile-menu__languages {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   width: 100%;
 }
@@ -183,16 +183,19 @@
 .mobile-menu__contact-actions {
   display: flex;
   gap: 12px;
+  width: 100%;
 }
 
 .mobile-menu__contact-action {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 8px;
 
-  width: fit-content;
+  flex: 1;
+  min-width: 0;
   min-height: 44px;
-  padding: 0 20px;
+  padding: 0 12px;
 
   background: var(--color-bg-deep);
   border: 1px solid rgba(195, 164, 107, 0.45);
@@ -200,8 +203,8 @@
 
   color: var(--color-text-primary);
   font-family: "Cinzel", Georgia, serif;
-  font-size: 16px;
-  letter-spacing: 0.08em;
+  font-size: 14px;
+  letter-spacing: 0.04em;
   text-decoration: none;
 
   transition:

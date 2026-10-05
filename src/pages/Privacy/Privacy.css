@@ -1,5 +1,5 @@
 .privacy {
-  padding: var(--space-20) var(--page-padding);
+  padding: var(--space-12) var(--page-padding);
   background: var(--color-bg-primary);
 }
 
@@ -20,14 +20,13 @@
   margin: 0;
   color: var(--color-text-primary);
   font-family: "Cinzel", Georgia, serif;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.2;
 }
 
 .privacy__updated {
   margin: var(--space-4) 0 0;
   color: var(--color-text-muted);
-  font-size: 14px;
 }
 
 .privacy__section {
@@ -55,7 +54,15 @@
 .privacy__section a {
   color: var(--color-gold-light);
 }
+@media (min-width: 641px) {
+  .privacy {
+    padding-block: var(--space-20);
+  }
 
+  .privacy__title {
+    font-size: 48px;
+  }
+}
 @media (min-width: 1101px) {
   .privacy__title {
     font-size: 52px;

@@ -2,7 +2,7 @@ import "./Experience.css";
 import Button from "../../ui/Button/Button";
 import { useTranslation } from "react-i18next";
 
-import GirlToCar from "../../../assets/images/exit_section_service.png";
+import GirlToCar from "../../../assets/images/exit_section_service.jpg";
 import Logo from "../../../assets/icons/3.svg";
 import { localizedPath } from "../../i18n/localizedPath";
 

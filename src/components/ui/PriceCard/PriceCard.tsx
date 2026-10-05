@@ -6,7 +6,7 @@ import { localizedPath } from "../../i18n/localizedPath";
 type PriceCardProps = {
   from?: string;
   to: string;
-  price?: number;
+  price: number;
   image: string;
   id: string;
 };

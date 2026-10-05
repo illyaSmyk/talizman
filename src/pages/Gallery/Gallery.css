@@ -1,5 +1,5 @@
 .gallery {
-  padding: var(--space-20) var(--page-padding);
+  padding: var(--space-12) var(--page-padding);
   background: var(--color-bg-primary);
 }
 
@@ -38,6 +38,10 @@
 }
 
 @media (min-width: 1101px) {
+  .gallery {
+    padding-block: var(--space-20);
+  }
+
   .gallery__photos {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -50,5 +54,10 @@
   .gallery__photo:first-child {
     grid-row: span 2;
     height: 100%;
+  }
+
+  .gallery__photo:nth-child(4) {
+    grid-column: 1 / -1;
+    height: 800px;
   }
 }

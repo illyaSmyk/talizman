@@ -15,6 +15,8 @@ function LanguageSync() {
       ? firstSegment
       : "sk";
 
+    document.documentElement.lang = language;
+
     if (i18n.language !== language) {
       i18n.changeLanguage(language);
     }

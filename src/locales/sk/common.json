@@ -6,6 +6,29 @@
     "contact": "Kontakt"
   },
 
+  "seo": {
+  "home": {
+    "title": "Osobná doprava z Banskej Bystrice | TALIZMAN",
+    "description": "Spoľahlivá osobná doprava z Banskej Bystrice na letiská a do destinácií na Slovensku a v strednej Európe."
+  },
+  "prices": {
+    "title": "Ceny osobnej dopravy z Banskej Bystrice | TALIZMAN",
+    "description": "Pozrite si ceny osobnej dopravy z Banskej Bystrice na letiská a do obľúbených destinácií na Slovensku a v strednej Európe."
+  },
+  "gallery": {
+    "title": "Galéria | TALIZMAN",
+    "description": "Pozrite si vozidlo Renault Talisman a pohodlie, ktoré môžete očakávať pri cestovaní so službou TALIZMAN."
+  },
+  "contact": {
+    "title": "Kontakt a rezervácia transferu | TALIZMAN",
+    "description": "Kontaktujte TALIZMAN a objednajte si osobnú dopravu z Banskej Bystrice po Slovensku alebo do krajín strednej Európy."
+  },
+  "privacy": {
+    "title": "Ochrana osobných údajov | TALIZMAN",
+    "description": "Informácie o spracúvaní a ochrane osobných údajov pri používaní webovej stránky a rezervačného formulára TALIZMAN."
+  }
+},
+
   "header": {
     "mainNavigation": "Hlavná navigácia",
     "chooseLanguage": "Vybrať jazyk",
@@ -140,7 +163,15 @@
   "title": "TALIZMAN zblízka.",
   "description": "Pozrite si bližšie vozidlo a pohodlie, ktoré môžete očakávať pri cestovaní s TALIZMAN.",
   "question": "Pripravení vyraziť?",
-  "bookTransfer": "Rezervovať transfer"
+  "bookTransfer": "Rezervovať transfer",
+  "images": {
+  "exterior": "Exteriér vozidla Renault Talisman",
+  "enter": "Nastupovanie do vozidla Renault Talisman",
+  "rearSeats": "Zadné sedadlá vozidla Renault Talisman",
+  "womanInCar": "Cestujúca vo vozidle Renault Talisman",
+  "luggage": "Batožina pripravená na transfer",
+  "driver": "Vodič služby TALIZMAN"
+}
 },
 
 "contact": {
@@ -202,7 +233,7 @@
 },
 "submit": {
   "sending": "Odosielam...",
-  "send": "Odoslať požiadavku"
+  "send": "Odoslať"
 },
 "status": {
   "success": "Vaša požiadavka bola úspešne odoslaná. Čoskoro sa vám ozveme.",

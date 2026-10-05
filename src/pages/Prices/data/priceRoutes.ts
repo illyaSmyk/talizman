@@ -12,7 +12,6 @@ export const priceRoutes = [
     id: "individual",
     price: 50,
     image: PrivateTransferImage,
-    variant: "individual",
   },
   {
     id: "viennaAirport",
@@ -29,24 +28,28 @@ export const priceRoutes = [
     price: 159,
     image: BratislavaAirportImage,
   },
+
   {
     id: "krakowAirport",
     price: 199,
     image: KrakowAirportImage,
   },
+
   {
     id: "kosiceAirport",
-    price: 219,
+    price: 195,
     image: KosiceAirportImage,
   },
+
   {
     id: "ukraineBorder",
-    price: 329,
+    price: 250,
     image: UkraineImage,
   },
+
   {
     id: "donovaly",
-    price: 49,
+    price: 25,
     image: DonovalyImage,
   },
 ];

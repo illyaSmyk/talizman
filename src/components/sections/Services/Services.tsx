@@ -1,7 +1,7 @@
 import "./Services.css";
-import airportImage from "../../../assets/images/airport_tr.png";
-import slovakiaImg from "../../../assets/images/slovakia_tr.png";
-import europeanImg from "../../../assets/images/europe_tr.png";
+import airportImage from "../../../assets/images/services/airport_tr.jpg";
+import slovakiaImg from "../../../assets/images/services/slovakia_tr.jpg";
+import europeanImg from "../../../assets/images/services/europe_tr.jpg";
 import { useTranslation } from "react-i18next";
 import { localizedPath } from "../../i18n/localizedPath";
 
@@ -38,7 +38,7 @@ function Services() {
                 {t("services.airport.description")}
               </p>
 
-              <p className="services__price">{t("services.from")} €130</p>
+              <p className="services__price">{t("services.from")} €159</p>
 
               <a
                 className="services__link"
@@ -68,7 +68,7 @@ function Services() {
                 {t("services.slovakia.description")}
               </p>
 
-              <p className="services__price">{t("services.from")} €60</p>
+              <p className="services__price">{t("services.from")} €50</p>
 
               <a
                 className="services__link"
@@ -98,7 +98,7 @@ function Services() {
                 {t("services.europe.description")}
               </p>
 
-              <p className="services__price">{t("services.from")} €95</p>
+              <p className="services__price">{t("services.from")} €169</p>
 
               <a
                 className="services__link"

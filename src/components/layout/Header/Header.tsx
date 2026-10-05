@@ -164,8 +164,8 @@ function Header() {
 
           <a
             className="header__phone"
-            href="tel:+421XXXXXXXXX"
-            aria-label="Call +421 XXX XXX XXX"
+            href="tel:+421947178526"
+            aria-label={t("mobileMenu.callUs")}
           >
             <img
               className="header__phone-icon"
@@ -174,7 +174,7 @@ function Header() {
               aria-hidden="true"
             />
 
-            <span className="header__phone-number">+421 XXX XXX XXX</span>
+            <span className="header__phone-number">+421 947 178 526</span>
           </a>
 
           <button

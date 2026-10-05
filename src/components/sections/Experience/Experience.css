@@ -16,7 +16,7 @@
 
 .experience__description-services {
   margin: 0;
-  color: rgb(170, 165, 157);
+  color: var(--color-text-soft);
   line-height: 1.8;
 }
 

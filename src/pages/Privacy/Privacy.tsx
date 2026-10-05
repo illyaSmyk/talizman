@@ -1,143 +1,152 @@
 import "./Privacy.css";
 import { useTranslation } from "react-i18next";
+import SEO from "../../components/layout/SEO/SEO";
 
 function Privacy() {
   const { t } = useTranslation();
 
   return (
-    <section className="privacy">
-      <div className="container">
-        <div className="privacy__content">
-          <p className="privacy__label">{t("privacy.label")}</p>
+    <>
+      <SEO
+        title={t("seo.privacy.title")}
+        description={t("seo.privacy.description")}
+      />
 
-          <h1 className="privacy__title">{t("privacy.title")}</h1>
+      <section className="privacy">
+        <div className="container">
+          <div className="privacy__content">
+            <p className="privacy__label">{t("privacy.label")}</p>
 
-          <p className="privacy__updated">{t("privacy.lastUpdated")}</p>
+            <h1 className="privacy__title">{t("privacy.title")}</h1>
 
-          <section className="privacy__section">
-            <h2>{t("privacy.sections.whoWeAre.title")}</h2>
+            <p className="privacy__updated">{t("privacy.lastUpdated")}</p>
 
-            <p>{t("privacy.sections.whoWeAre.description")}</p>
+            <section className="privacy__section">
+              <h2>{t("privacy.sections.whoWeAre.title")}</h2>
 
-            <address>
-              ILLIA Smyk
-              <br />
-              {t("privacy.sections.whoWeAre.soleTrader")}
-              <br />
-              IČO: 57 855 005
-              <br />
-              Horná 92/37
-              <br />
-              974 01 Banská Bystrica
-              <br />
-              {t("privacy.sections.whoWeAre.country")}
-            </address>
+              <p>{t("privacy.sections.whoWeAre.description")}</p>
 
-            <p>
-              {t("privacy.sections.whoWeAre.email")}:{" "}
-              <a href="mailto:illiasmyksk@gmail.com">illiasmyksk@gmail.com</a>
-            </p>
-          </section>
+              <address>
+                Illia Smyk
+                <br />
+                {t("privacy.sections.whoWeAre.soleTrader")}
+                <br />
+                IČO: 57 855 005
+                <br />
+                Horná 92/37
+                <br />
+                974 01 Banská Bystrica
+                <br />
+                {t("privacy.sections.whoWeAre.country")}
+              </address>
 
-          <section className="privacy__section">
-            <h2>{t("privacy.sections.dataCollected.title")}</h2>
+              <p>
+                {t("privacy.sections.whoWeAre.email")}:{" "}
+                <a href="mailto:illiasmyksk@gmail.com">illiasmyksk@gmail.com</a>
+              </p>
+            </section>
 
-            <p>{t("privacy.sections.dataCollected.intro")}</p>
+            <section className="privacy__section">
+              <h2>{t("privacy.sections.dataCollected.title")}</h2>
 
-            <ul>
-              <li>{t("privacy.sections.dataCollected.name")}</li>
-              <li>{t("privacy.sections.dataCollected.phone")}</li>
-              <li>{t("privacy.sections.dataCollected.departure")}</li>
-              <li>{t("privacy.sections.dataCollected.destination")}</li>
-              <li>{t("privacy.sections.dataCollected.dateTime")}</li>
-              <li>{t("privacy.sections.dataCollected.passengers")}</li>
-              <li>{t("privacy.sections.dataCollected.additionalInfo")}</li>
-            </ul>
+              <p>{t("privacy.sections.dataCollected.intro")}</p>
 
-            <p>{t("privacy.sections.dataCollected.sensitiveInfo")}</p>
-          </section>
+              <ul>
+                <li>{t("privacy.sections.dataCollected.name")}</li>
+                <li>{t("privacy.sections.dataCollected.phone")}</li>
+                <li>{t("privacy.sections.dataCollected.departure")}</li>
+                <li>{t("privacy.sections.dataCollected.destination")}</li>
+                <li>{t("privacy.sections.dataCollected.dateTime")}</li>
+                <li>{t("privacy.sections.dataCollected.passengers")}</li>
+                <li>{t("privacy.sections.dataCollected.additionalInfo")}</li>
+              </ul>
 
-          <section className="privacy__section">
-            <h2>{t("privacy.sections.purpose.title")}</h2>
+              <p>{t("privacy.sections.dataCollected.sensitiveInfo")}</p>
+            </section>
 
-            <p>{t("privacy.sections.purpose.intro")}</p>
+            <section className="privacy__section">
+              <h2>{t("privacy.sections.purpose.title")}</h2>
 
-            <ul>
-              <li>{t("privacy.sections.purpose.respond")}</li>
-              <li>{t("privacy.sections.purpose.communicate")}</li>
-              <li>{t("privacy.sections.purpose.arrange")}</li>
-              <li>{t("privacy.sections.purpose.provideService")}</li>
-            </ul>
+              <p>{t("privacy.sections.purpose.intro")}</p>
 
-            <p>{t("privacy.sections.purpose.legalBasis")}</p>
-          </section>
+              <ul>
+                <li>{t("privacy.sections.purpose.respond")}</li>
+                <li>{t("privacy.sections.purpose.communicate")}</li>
+                <li>{t("privacy.sections.purpose.arrange")}</li>
+                <li>{t("privacy.sections.purpose.provideService")}</li>
+              </ul>
 
-          <section className="privacy__section">
-            <h2>{t("privacy.sections.bookingProcessing.title")}</h2>
+              <p>{t("privacy.sections.purpose.legalBasis")}</p>
+            </section>
 
-            <p>{t("privacy.sections.bookingProcessing.description")}</p>
+            <section className="privacy__section">
+              <h2>{t("privacy.sections.bookingProcessing.title")}</h2>
 
-            <p>{t("privacy.sections.bookingProcessing.provider")}</p>
-          </section>
+              <p>{t("privacy.sections.bookingProcessing.description")}</p>
 
-          <section className="privacy__section">
-            <h2>{t("privacy.sections.retention.title")}</h2>
+              <p>{t("privacy.sections.bookingProcessing.provider")}</p>
+            </section>
 
-            <p>{t("privacy.sections.retention.bookingEmails")}</p>
+            <section className="privacy__section">
+              <h2>{t("privacy.sections.retention.title")}</h2>
 
-            <p>{t("privacy.sections.retention.web3forms")}</p>
+              <p>{t("privacy.sections.retention.bookingEmails")}</p>
 
-            <p>{t("privacy.sections.retention.legalObligations")}</p>
-          </section>
+              <p>{t("privacy.sections.retention.web3forms")}</p>
 
-          <section className="privacy__section">
-            <h2>{t("privacy.sections.sharing.title")}</h2>
+              <p>{t("privacy.sections.retention.legalObligations")}</p>
+            </section>
 
-            <p>{t("privacy.sections.sharing.noSale")}</p>
+            <section className="privacy__section">
+              <h2>{t("privacy.sections.sharing.title")}</h2>
 
-            <p>{t("privacy.sections.sharing.providers")}</p>
+              <p>{t("privacy.sections.sharing.noSale")}</p>
 
-            <p>{t("privacy.sections.sharing.law")}</p>
-          </section>
+              <p>{t("privacy.sections.sharing.providers")}</p>
 
-          <section className="privacy__section">
-            <h2>{t("privacy.sections.rights.title")}</h2>
+              <p>{t("privacy.sections.sharing.law")}</p>
+            </section>
 
-            <p>{t("privacy.sections.rights.intro")}</p>
+            <section className="privacy__section">
+              <h2>{t("privacy.sections.rights.title")}</h2>
 
-            <ul>
-              <li>{t("privacy.sections.rights.access")}</li>
-              <li>{t("privacy.sections.rights.correction")}</li>
-              <li>{t("privacy.sections.rights.deletion")}</li>
-              <li>{t("privacy.sections.rights.restriction")}</li>
-              <li>{t("privacy.sections.rights.portability")}</li>
-              <li>{t("privacy.sections.rights.object")}</li>
-            </ul>
+              <p>{t("privacy.sections.rights.intro")}</p>
 
-            <p>{t("privacy.sections.rights.complaint")}</p>
+              <ul>
+                <li>{t("privacy.sections.rights.access")}</li>
+                <li>{t("privacy.sections.rights.correction")}</li>
+                <li>{t("privacy.sections.rights.deletion")}</li>
+                <li>{t("privacy.sections.rights.restriction")}</li>
+                <li>{t("privacy.sections.rights.portability")}</li>
+                <li>{t("privacy.sections.rights.object")}</li>
+              </ul>
 
-            <p>
-              {t("privacy.sections.rights.contact")}{" "}
-              <a href="mailto:illiasmyksk@gmail.com">illiasmyksk@gmail.com</a>.
-            </p>
-          </section>
+              <p>{t("privacy.sections.rights.complaint")}</p>
 
-          <section className="privacy__section">
-            <h2>{t("privacy.sections.cookies.title")}</h2>
+              <p>
+                {t("privacy.sections.rights.contact")}{" "}
+                <a href="mailto:illiasmyksk@gmail.com">illiasmyksk@gmail.com</a>
+                .
+              </p>
+            </section>
 
-            <p>{t("privacy.sections.cookies.current")}</p>
+            <section className="privacy__section">
+              <h2>{t("privacy.sections.cookies.title")}</h2>
 
-            <p>{t("privacy.sections.cookies.future")}</p>
-          </section>
+              <p>{t("privacy.sections.cookies.current")}</p>
 
-          <section className="privacy__section">
-            <h2>{t("privacy.sections.changes.title")}</h2>
+              <p>{t("privacy.sections.cookies.future")}</p>
+            </section>
 
-            <p>{t("privacy.sections.changes.description")}</p>
-          </section>
+            <section className="privacy__section">
+              <h2>{t("privacy.sections.changes.title")}</h2>
+
+              <p>{t("privacy.sections.changes.description")}</p>
+            </section>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
 

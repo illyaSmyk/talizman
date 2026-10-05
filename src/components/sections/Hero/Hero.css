@@ -8,7 +8,7 @@
 
   background-image:
     linear-gradient(rgba(16, 10, 29, 0.68), rgba(16, 10, 29, 0.68)),
-    url("../../../assets/images/Talisman-Hero-phone.png");
+    url("../../../assets/images/Talisman_Hero.jpg");
 
   background-size: cover;
   background-position: center;
@@ -21,6 +21,10 @@
   align-items: flex-start;
   width: 100%;
   gap: 40px;
+}
+
+.hero__info .button {
+  width: 100%;
 }
 
 .hero__title {
@@ -143,6 +147,10 @@
     font-size: 36px;
   }
 
+  .hero__info .button {
+    width: auto;
+  }
+
   .hero__services {
     flex-direction: row;
     gap: var(--space-6);
@@ -194,7 +202,7 @@
         rgba(16, 10, 29, 0.55) 50%,
         rgba(16, 10, 29, 0) 70%
       ),
-      url("../../../assets/images/Talisman-Hero-phone.png");
+      url("../../../assets/images/Talisman_Hero.jpg");
   }
 
   .hero__info {

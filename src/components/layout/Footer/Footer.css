@@ -64,7 +64,7 @@
 
 .footer__brand-tagline {
   color: var(--color-gold);
-  font-size: 5px;
+  font-size: 8px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
 }
