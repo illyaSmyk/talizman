@@ -42,7 +42,7 @@ function Privacy() {
 
               <p>
                 {t("privacy.sections.whoWeAre.email")}:{" "}
-                <a href="mailto:illiasmyksk@gmail.com">illiasmyksk@gmail.com</a>
+                <a href="mailto:info@talizman-transfer.sk"></a>
               </p>
             </section>
 
@@ -125,7 +125,9 @@ function Privacy() {
 
               <p>
                 {t("privacy.sections.rights.contact")}{" "}
-                <a href="mailto:illiasmyksk@gmail.com">illiasmyksk@gmail.com</a>
+                <a href="mailto:info@talizman-transfer.sk">
+                  info@talizman-transfer.sk
+                </a>
                 .
               </p>
             </section>

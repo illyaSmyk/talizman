@@ -73,7 +73,7 @@ function Contact() {
 
               <a
                 className="contact__detail"
-                href="mailto:illiasmyksk@gmail.com"
+                href="mailto:info@talizman-transfer.sk"
               >
                 <img
                   className="contact__detail-icon"
@@ -82,7 +82,7 @@ function Contact() {
                   aria-hidden="true"
                 />
                 <span className="contact__detail-value">
-                  illiasmyksk@gmail.com
+                  info@talizman-transfer.sk
                 </span>
               </a>
 
